@@ -1,0 +1,22 @@
+[2024-07-05 15:35:26,095] 25 root - INFO -Data Ingestion method starts
+[2024-07-05 15:35:26,095] 29 root - INFO -Dataset read as pandas Dataframe
+[2024-07-05 15:35:26,095] 35 root - INFO -Train test split
+[2024-07-05 15:35:26,095] 41 root - INFO -Ingestion of data is completed
+[2024-07-05 15:35:26,095] 65 root - INFO -Read train and test data
+[2024-07-05 15:35:26,112] 66 root - INFO -Train data head:    total_bill   tip     sex smoker   day    time  size
+0       19.65  3.00  Female     No   Sat  Dinner     2
+1       11.69  2.31    Male     No  Thur   Lunch     2
+2       25.71  4.00  Female     No   Sun  Dinner     3
+3       17.82  1.75    Male     No   Sat  Dinner     2
+4       25.29  4.71    Male     No   Sun  Dinner     4
+[2024-07-05 15:35:26,114] 67 root - INFO -Test data head:    total_bill   tip   sex smoker  day    time  size
+0       19.82  3.18  Male     No  Sat  Dinner     2
+1        8.77  2.00  Male     No  Sun  Dinner     2
+2       17.26  2.74  Male     No  Sun  Dinner     3
+3       10.77  1.47  Male     No  Sat  Dinner     2
+4       29.03  5.92  Male     No  Sat  Dinner     3
+[2024-07-05 15:35:26,115] 80 root - INFO -Input and target features segrregated for both train and test dataset
+[2024-07-05 15:35:26,115] 84 root - INFO -Feature Engineering started
+[2024-07-05 15:35:26,116] 29 root - INFO -Data Transformation Initiated
+[2024-07-05 15:35:26,116] 38 root - INFO -Data Pipelines Initiated
+[2024-07-05 15:35:26,116] 106 root - INFO -Error in preprocessing
