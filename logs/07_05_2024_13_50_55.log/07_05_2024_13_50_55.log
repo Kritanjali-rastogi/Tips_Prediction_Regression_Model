@@ -1,0 +1,3 @@
+[2024-07-05 13:50:56,188] 24 root - INFO -Data Ingestion Process Started
+[2024-07-05 13:50:56,188] 29 root - INFO -Data read as a pandas dataframe
+[2024-07-05 13:50:56,188] 47 root - INFO -Error occured in data ingestion
