@@ -1,0 +1,28 @@
+[2024-07-06 11:25:37,942] 25 root - INFO -Data Ingestion method starts
+[2024-07-06 11:25:37,957] 29 root - INFO -Dataset read as pandas Dataframe
+[2024-07-06 11:25:37,957] 35 root - INFO -Train test split
+[2024-07-06 11:25:37,957] 41 root - INFO -Ingestion of data is completed
+[2024-07-06 11:25:37,957] 65 root - INFO -Read train and test data
+[2024-07-06 11:25:37,957] 66 root - INFO -Train data head:    total_bill   tip     sex smoker   day    time  size
+0       19.65  3.00  Female     No   Sat  Dinner     2
+1       11.69  2.31    Male     No  Thur   Lunch     2
+2       25.71  4.00  Female     No   Sun  Dinner     3
+3       17.82  1.75    Male     No   Sat  Dinner     2
+4       25.29  4.71    Male     No   Sun  Dinner     4
+[2024-07-06 11:25:37,980] 67 root - INFO -Test data head:    total_bill   tip   sex smoker  day    time  size
+0       19.82  3.18  Male     No  Sat  Dinner     2
+1        8.77  2.00  Male     No  Sun  Dinner     2
+2       17.26  2.74  Male     No  Sun  Dinner     3
+3       10.77  1.47  Male     No  Sat  Dinner     2
+4       29.03  5.92  Male     No  Sat  Dinner     3
+[2024-07-06 11:25:37,980] 80 root - INFO -Input and target features segrregated for both train and test dataset
+[2024-07-06 11:25:37,980] 84 root - INFO -Feature Engineering started
+[2024-07-06 11:25:37,980] 29 root - INFO -Data Transformation Initiated
+[2024-07-06 11:25:37,980] 38 root - INFO -Data Pipelines Initiated
+[2024-07-06 11:25:37,992] 91 root - INFO -Feature Engineering completed
+[2024-07-06 11:25:37,992] 99 root - INFO -Preprocessor created and saved
+[2024-07-06 11:25:37,992] 100 root - INFO -Type array: <class 'numpy.ndarray'>
+[2024-07-06 11:25:37,992] 30 root - INFO -Dividing train and test data
+[2024-07-06 11:25:37,992] 47 root - INFO -Model training started
+[2024-07-06 11:25:38,176] 51 root - INFO -Model Report: {'Linear Regression': 0.470067351017986, 'Lasso': 0.0, 'Ridge': 0.4700335919956147, 'SVR': 0.6211423475764756, 'RF': 0.9103854840654552, 'DT': 1.0, 'ElasticNet': 0.23491333771073808, 'KN': 0.5359807451665435}
+[2024-07-06 11:25:38,176] 59 root - INFO -Best Model Found: Model Name: DT, accuracy: 1.0
